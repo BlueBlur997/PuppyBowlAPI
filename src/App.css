@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+}
+
+
+#all-players-container{
+  padding-top: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15%;
+  row-gap: 3%;
+  filter: drop-shadow(0.4rem 0.4rem 0.45rem rgba(0, 0, 30, 0.5));
+  margin-left: 1%;
+}
+
+
+.player-image{
+  height: 300px;
+  width: 270px;
+  border-radius: 10px;
+}
+
+.player{
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+}
+
+.btn {
+  padding: 5px 20px;
+  border-radius: 10em;
+  border: solid #e7f6f2;
+}
